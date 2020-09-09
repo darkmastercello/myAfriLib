@@ -1,0 +1,21 @@
+body{
+    background-color:#CCFF66;
+}
+
+#form{
+    border-style: solid;
+}
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+}
+#intro{
+    text-align: center;
+}
+
+#card{
+    padding-bottom: 50px;
+
+}
+/* #FFFF99 */
