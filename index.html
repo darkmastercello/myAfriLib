@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afrilib
+
+    </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <br><br>
+                <h1><b>AfriLib</b></h1>
+                <p id="intro">The African book lover's haven</p>
+                <br>
+            </div>
+            <div class="col-md-2">
+                <h4>Biographies</h4>
+            </div>
+            <div class="col-md-2">
+                <h4>Fiction</h4>
+            </div>
+            <div class="col-md-2">
+                <h4>Romance</h4>
+            </div>
+            <div class="col-md-2">
+                <h4>African History</h4>
+            </div>
+            <div class="col-md-2">
+                <h4>African Art</h4>
+            </div><br><br>
+            <div class="col-md-3">
+                <!-- This div will house the books that the javascript functions will be append from the form.  -->
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Book title</h5>
+                        <p class="card-text"></p>Some quick text to build on the book title.</p>
+                        <a href="#" class="btn btn-primary">Read book</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12" id="form"><br><br>
+                <form>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Author's Name</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput"
+                            placeholder="e.g. Ngugi Wa Thiong'o">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput2">Book title</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2"
+                            placeholder="e.g. Monkey Bought A bus">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput2">Book content</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2"
+                            placeholder="Paste the content of your book here">
+                    </div>
+
+                    <div class="form-group"><br>
+                        <label for="exampleFormControlFile1">Upload image of book cover</label>
+                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
